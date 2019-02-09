@@ -6,3 +6,19 @@
 body {
     font-family: 'Founders', 'Helvetica', 'Arial', sans-serif;
 }
+
+header {
+    padding: 1em;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    padding: 1em;
+}
+
+footer p {
+    line-height: 1em;
+}
