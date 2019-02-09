@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Founders';
+    src: url('/fonts/FoundersGrotesk-Regular.woff');
+}
+
+body {
+    font-family: 'Founders', 'Helvetica', 'Arial', sans-serif;
+}
