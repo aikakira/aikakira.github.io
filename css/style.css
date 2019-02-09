@@ -5,6 +5,10 @@
 
 body {
     font-family: 'Founders', 'Helvetica', 'Arial', sans-serif;
+    background-image: url('../img/190101_STUDIOATOF_BG-0-min.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {
