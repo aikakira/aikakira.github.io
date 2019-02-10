@@ -33,6 +33,12 @@ h1 {
     color: white;
 }
 
+.logo {
+    height: 50%;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+
 main {
     text-align: center;
     padding-top: 1em;
