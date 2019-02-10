@@ -5,13 +5,11 @@
 
 body {
     font-family: 'Founders', 'Helvetica', 'Arial', sans-serif;
-    background-image: url('../img/190101_STUDIOATOF_BG-0-min.jpg');
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-
+    
     font-size: 16px;
     color: white;
+
+    overflow:hidden;
 }
 
 .wrapper {
@@ -20,6 +18,10 @@ body {
 
 .grid--fullHeight {
     height: 100vh;
+}
+
+.grid--fullWidth {
+    width: 100vw;
 }
 
 header {
@@ -51,3 +53,32 @@ footer p {
     margin-bottom: 0;
 }
 
+.background {
+    background-image: url('../img/190101_STUDIOATOF_BG-0-min.jpg');
+    background-size: cover;
+    background-position: center center;
+    transform: scale(1.1);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    overflow: hidden;
+
+    height: 100%;
+    width:100%;
+}
+
+/*
+ * Fonts
+ */
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: underline;
+    }
